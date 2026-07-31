@@ -1,0 +1,29 @@
+name: Feature request
+description: Propose an improvement to SheriaOpen
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Legal, privacy, security or neutrality risks
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Project principles
+      options:
+        - label: The proposal can preserve official-source citations.
+        - label: The proposal does not require partisan political profiling.
+        - label: The proposal does not place basic legal information behind a paywall.

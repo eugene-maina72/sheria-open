@@ -1,0 +1,52 @@
+SheriaOpen Notices
+==================
+
+Copyright
+---------
+
+Copyright (C) 2026 Eugene Maina and SheriaOpen contributors.
+
+The application source code is made available under AGPL-3.0-or-later. See the
+root LICENSE file and LICENSES/README.md.
+
+Legal-information disclaimer
+----------------------------
+
+SheriaOpen provides general legal information and civic education. It does not
+provide legal advice, create an advocate-client relationship, guarantee that an
+answer applies to a user's facts, or replace a qualified advocate.
+
+Users should verify important information against the cited official source and
+obtain professional assistance for individual disputes, legal deadlines, court
+proceedings, arrests, criminal allegations, immigration matters, domestic
+violence, evictions and other high-risk situations.
+
+Official-source attribution
+---------------------------
+
+SheriaOpen may retrieve or reference legislation, Bills, judgments, Gazette
+notices and publications from official public bodies. Those materials are not
+relicensed by SheriaOpen. Their official titles, provenance, source URLs,
+version dates and applicable terms must be preserved.
+
+No endorsement
+--------------
+
+Use of an official source does not imply that the source institution endorses
+SheriaOpen. SheriaOpen is independent unless a formal partnership is expressly
+announced.
+
+Third-party software and models
+-------------------------------
+
+Dependencies, model weights, datasets and other third-party materials remain
+subject to their own licences. Contributors and deployers are responsible for
+reviewing those terms before redistribution or commercial deployment.
+
+Name and identity
+-----------------
+
+The software licences do not grant permission to use the SheriaOpen name, logo
+or visual identity in a manner that suggests that an altered service is the
+official SheriaOpen service or is endorsed by the project's maintainers.
+Descriptive use, attribution and truthful statements about forks remain allowed.

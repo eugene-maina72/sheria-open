@@ -1,0 +1,49 @@
+name: Legal accuracy or source issue
+description: Report an incorrect, outdated, unsupported or unclear legal answer
+title: "[Legal review]: "
+labels: ["legal-review", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve accuracy. Do not post private case facts or identify a vulnerable person.
+  - type: textarea
+    id: issue
+    attributes:
+      label: What appears incorrect or unclear?
+    validations:
+      required: true
+  - type: input
+    id: answer_reference
+    attributes:
+      label: Answer, page or commit reference
+  - type: input
+    id: source_url
+    attributes:
+      label: Official source URL
+    validations:
+      required: true
+  - type: input
+    id: provision
+    attributes:
+      label: Article, section or provision
+    validations:
+      required: true
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: Issue type
+      options:
+        - Incorrect legal status
+        - Unsupported citation
+        - Outdated source
+        - Missing exception
+        - Misleading plain-language explanation
+        - Translation issue
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_correction
+    attributes:
+      label: Suggested correction and reasoning

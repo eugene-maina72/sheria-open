@@ -1,0 +1,50 @@
+sheriaopen/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.yml
+│   │   ├── config.yml
+│   │   ├── feature_request.yml
+│   │   └── legal_accuracy.yml
+│   ├── workflows/
+│   │   └── ci.yml
+│   ├── CODEOWNERS
+│   ├── dependabot.yml
+│   └── PULL_REQUEST_TEMPLATE.md
+├── data/
+│   └── README.md
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── DATA_SOURCE_POLICY.md
+│   ├── LEGAL_INFORMATION_POLICY.md
+│   ├── RELEASE_CHECKLIST.md
+│   └── ROADMAP.md
+├── LICENSES/
+│   ├── CC-BY-SA-4.0-NOTICE.md
+│   └── README.md
+├── src/sheriaopen/
+│   ├── api/routes/health.py
+│   ├── providers/base.py
+│   ├── providers/ollama.py
+│   ├── __init__.py
+│   ├── config.py
+│   ├── main.py
+│   └── models.py
+├── tests/
+│   └── test_health.py
+├── .env.example
+├── .gitignore
+├── CHANGELOG.md
+├── CITATION.cff
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── CONTRIBUTORS.md
+├── Dockerfile
+├── GOVERNANCE.md
+├── LICENSE
+├── Makefile
+├── NOTICE
+├── README.md
+├── SECURITY.md
+├── docker-compose.yml
+├── pre-commit-config.yaml
+└── pyproject.toml

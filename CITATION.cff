@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use SheriaOpen in research, please cite the software using this metadata."
+title: "SheriaOpen"
+type: software
+authors:
+  - family-names: "Maina"
+    given-names: "Eugene"
+    alias: "eugene-maina72"
+repository-code: "https://github.com/eugene-maina72/sheriaopen"
+url: "https://github.com/eugene-maina72/sheriaopen"
+license: "AGPL-3.0-or-later"
+version: "0.0.1"
+date-released: "2026-07-31"
+abstract: >-
+  An open-source Kenyan legal-information platform using retrieval-augmented
+  generation and locally hosted language models to provide plain-language,
+  source-backed explanations of the Constitution, Acts, Bills and legislative
+  changes.
+keywords:
+  - Kenya
+  - legal information
+  - civic technology
+  - retrieval-augmented generation
+  - Ollama

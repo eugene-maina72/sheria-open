@@ -1,3 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Testing and tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data and model artefacts
+/data/raw/
+/data/processed/
+/data/indexes/
+/data/cache/
+/models/
+*.faiss
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and runtime
+logs/
+*.log
+.pid/
+
+# User uploads and sensitive material
+uploads/
+private/
+secrets/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
