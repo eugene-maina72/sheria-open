@@ -101,8 +101,8 @@ Install:
 ### 2. Clone and configure
 
 ```bash
-git clone https://github.com/eugene-maina72/sheriaopen.git
-cd sheriaopen
+git clone https://github.com/eugene-maina72/sheria-open.git
+cd sheria-open
 cp .env.example .env
 ```
 
@@ -143,7 +143,9 @@ pip install -e ".[dev]"
 uvicorn sheriaopen.main:app --reload
 ```
 
-Open `http://127.0.0.1:8000/health`.
+Open `http://127.0.0.1:8000/health` for liveness. Use
+`http://127.0.0.1:8000/ready` to confirm that Ollama is reachable and both
+configured models are installed.
 
 ### 5. Run with Docker Compose
 

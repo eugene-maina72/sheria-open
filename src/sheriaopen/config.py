@@ -27,6 +27,7 @@ class Settings(BaseSettings):
     ollama_chat_model: str = "qwen3:8b"
     ollama_embedding_model: str = "qwen3-embedding:0.6b"
     ollama_timeout_seconds: float = 120.0
+    ollama_readiness_timeout_seconds: float = 5.0
 
     max_input_characters: int = 6000
     max_output_tokens: int = 900

@@ -49,9 +49,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/eugene-maina72/sheriaopen"
-Repository = "https://github.com/eugene-maina72/sheriaopen"
-Issues = "https://github.com/eugene-maina72/sheriaopen/issues"
+Homepage = "https://github.com/eugene-maina72/sheria-open"
+Repository = "https://github.com/eugene-maina72/sheria-open"
+Issues = "https://github.com/eugene-maina72/sheria-open/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
