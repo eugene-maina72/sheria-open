@@ -7,6 +7,6 @@ from typing import Protocol
 
 
 class GenerationProvider(Protocol):
-    async def generate(self, *, messages: list[dict[str, str]], schema: dict) -> str:
+    async def generate(self, *, messages: list[dict[str, str]], schema: dict[str, object]) -> str:
         """Generate structured text using the requested schema."""
         ...

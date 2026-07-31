@@ -11,9 +11,7 @@ from sheriaopen.api.routes.health import router as health_router
 app = FastAPI(
     title="SheriaOpen API",
     version=__version__,
-    description=(
-        "Open-source Kenyan legal-information API. Early development; not legal advice."
-    ),
+    description=("Open-source Kenyan legal-information API. Early development; not legal advice."),
 )
 
 app.include_router(health_router)
